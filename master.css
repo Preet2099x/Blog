@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(27, 27, 27);
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body nav .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+body nav .logo img {
+  height: 43px;
+  border-radius: 50%;
+}
+body nav .logo p {
+  padding-left: 10px;
+  font-weight: 500;
+}
+body nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #a8b2b3;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+}
+body nav .links a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 400;
+  color: black;
+  font-size: 21px;
+  padding: 20px;
+}
+body nav .socials img {
+  height: 30px;
+}
+body nav .socials a {
+  padding-left: 10px;
+}
+body nav .socials #git {
+  height: 34px;
+}/*# sourceMappingURL=master.css.map */
