@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <nav>
@@ -23,39 +23,19 @@
             <a href=""><img src="/assets/github.svg" alt="" id='git'></a>
         </div>
     </nav>
-
-    <section class="one">
-        <div class="left">
-            <img src="assets/mascot.webp" alt="">
-        </div>
-        <div class="right">
-            <h1>Dream Big, Work Hard, Achieve More!</h1>
-            <p>This Mantra Drives My Work As A Passionate Freelancer. I Blend Innovative Technology With Timeless Design For Captivating Digital Experiences. Inspired By Nature And Literature, I'm A Perpetual Learner Embracing Challenges. With Each Project, I Aim To Leave A Lasting Impact—One Pixel At A Time.</p>
-        </div>
+    <section>
+        <form id="contactForm" class="contact-form">
+            Hello! My name is
+            <input id="nameInput" type="text" placeholder="your name" class="input-field" />
+            and I want to discuss a potential project. You can email me at
+            <input id="emailInput" type="email" placeholder="your@email" class="input-field" />
+            or reach out to me on
+            <input id="phoneInput" type="tel" placeholder="your phone" class="input-field" />
+            Here are some details about my project: <br />
+            <textarea id="detailsTextarea" placeholder="My project is about..." rows="3" class="textarea"></textarea>
+            <input type="submit" value="send request" class="submit-btn" />
+          </form>  
     </section>
-
-    <section class="two">
-        <h1>I'm comfortable in...</h1>
-        <div>
-            <button>HTML</button>
-            <button>CSS</button>
-            <button>JavaScript</button>
-            <button>TypeScript</button>
-            <button>React.Js</button>
-            <button>Next.Js</button>
-            <button>SpringBoot</button>
-            <button>Node.Js</button>
-            <button>SQL</button>
-            <button>MongoDB</button>
-            <button>Firebase</button>
-            <button>Bootstrap</button>
-            <button>TailwindCSS</button>
-            <button>Kotlin</button>
-            <button>Python</button>
-        </div>
-    </section>
-
-
     <footer class="">
         <h1>Interesting Stories | Updates | Guides
         </h1>
@@ -72,5 +52,6 @@
         <p>©2023 Preet Singh. All rights reserved.</p>
         
     </footer>
+</body>
 </body>
 </html>
