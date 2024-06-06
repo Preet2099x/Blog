@@ -50,35 +50,51 @@ body nav .socials a {
 body nav .socials #git {
   height: 34px;
 }
-body section .contact-form {
+body section {
+  display: flex;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+body section .left {
+  border-right: 2px solid white;
+}
+body section .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+body section .right .contact-form {
   margin-top: 12px;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 1.5;
   font-family: "Arial", sans-serif;
 }
-body section .input-field {
+body section .right .input-field {
   outline: none;
   border: none;
   padding: 0;
   margin: 0 8px;
-  border-bottom: 1px solid #ccc;
-  font-size: 16px;
+  border-bottom: 2px solid #ccc;
+  font-size: 27px;
   background-color: transparent;
   width: auto;
+  color: #fff;
 }
-body section .textarea {
+body section .right .textarea {
   width: 100%;
   outline: none;
   border: none;
   padding: 0;
   margin: 0;
-  border-bottom: 1px solid #ccc;
-  font-size: 16px;
+  border-bottom: 2px solid #ccc;
+  font-size: 26px;
   background-color: transparent;
 }
-body section .submit-btn {
-  margin-top: 12px;
+body section .right .submit-btn {
+  margin-top: 1px;
+  line-height: 1;
   font-weight: bold;
   text-transform: capitalize;
   font-size: 16px;

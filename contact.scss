@@ -62,52 +62,131 @@ body
     
         }
     }
-    
+
     section{
-    
-        .contact-form {
-            margin-top: 12px;
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 1.5;
-            font-family: 'Arial', sans-serif;
+        display: flex;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+
+        .left{
+            border-right: 2px solid white;
+            
         }
-        
-        .input-field {
-            outline: none;
-            border: none;
-            padding: 0;
-            margin: 0 8px;
-            border-bottom: 1px solid #ccc;
-            font-size: 16px;
-            background-color: transparent;
-            width: auto;
+
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            
+            .contact-form {
+                margin-top: 12px;
+                font-size: 26px;
+                font-weight: bold;
+                line-height: 1.5;
+                font-family: 'Arial', sans-serif;
+                
+            }
+            
+            .input-field {
+                outline: none;
+                border: none;
+                padding: 0;
+                margin: 0 8px;
+                border-bottom: 2px solid #ccc;
+                font-size: 27px;
+                background-color: transparent;
+                width: auto;
+                color: #fff;
+            }
+            
+            .textarea {
+                width: 100%;
+                outline: none;
+                border: none;
+                padding: 0;
+                margin: 0;
+                border-bottom: 2px solid #ccc;
+                font-size: 26px;
+                background-color: transparent;
+            }
+            
+            .submit-btn {
+                margin-top: 1px;
+                line-height: 1;
+                font-weight: bold;
+                text-transform: capitalize;
+                font-size: 16px;
+                padding: 10px 20px;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #fff;
+            }
         }
-        
-        .textarea {
-            width: 100%;
-            outline: none;
-            border: none;
-            padding: 0;
-            margin: 0;
-            border-bottom: 1px solid #ccc;
-            font-size: 16px;
-            background-color: transparent;
-        }
-        
-        .submit-btn {
-            margin-top: 12px;
-            font-weight: bold;
-            text-transform: capitalize;
-            font-size: 16px;
-            padding: 10px 20px;
-            border: 2px solid #000;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: #fff;
-        }
+
         
     }
+    
+    // section{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     border-bottom: 2px solid white;
+
+    //     img{
+
+    //     }
+
+        // form{
+        //     font-size: 20px;
+        //     border-left: 2px solid white;
+
+        //     .contact-form {
+        //         margin-top: 12px;
+        //         font-size: 16px;
+        //         font-weight: bold;
+        //         line-height: 1.5;
+        //         font-family: 'Arial', sans-serif;
+        //     }
+            
+        //     .input-field {
+        //         outline: none;
+        //         border: none;
+        //         padding: 0;
+        //         margin: 0 8px;
+        //         // border-bottom: 1px solid #ccc;
+        //         font-size: 16px;
+        //         background-color: transparent;
+        //         width: auto;
+        //     }
+            
+        //     .textarea {
+        //         width: 100%;
+        //         outline: none;
+        //         border: none;
+        //         padding: 0;
+        //         margin: 0;
+        //         border-bottom: 1px solid #ccc;
+        //         font-size: 16px;
+        //         background-color: transparent;
+        //     }
+            
+        //     .submit-btn {
+        //         margin-top: 12px;
+        //         font-weight: bold;
+        //         text-transform: capitalize;
+        //         font-size: 16px;
+        //         padding: 10px 20px;
+        //         // border: 2px solid #000;
+        //         border-radius: 5px;
+        //         cursor: pointer;
+        //         background-color: #fff;
+        //     }
+    //     }
+    
+        
+    // }
     
     footer{
         display: flex;
