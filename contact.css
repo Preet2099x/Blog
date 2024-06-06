@@ -70,6 +70,7 @@ body section .right .contact-form {
   font-weight: bold;
   line-height: 1.5;
   font-family: "Arial", sans-serif;
+  color: #fff;
 }
 body section .right .input-field {
   outline: none;
@@ -90,6 +91,7 @@ body section .right .textarea {
   margin: 0;
   border-bottom: 2px solid #ccc;
   font-size: 26px;
+  color: white;
   background-color: transparent;
 }
 body section .right .submit-btn {
